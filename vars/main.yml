@@ -1,2 +1,4 @@
 ---
 # vars file for apparmor
+
+apparmor_service_name: apparmor

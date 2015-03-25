@@ -1,0 +1,7 @@
+---
+# vars file for apparmor (Ubuntu specific)
+
+apparmor_packages:
+  - apparmor
+  - apparmor-utils
+  - apparmor-profiles

@@ -1,0 +1,7 @@
+---
+# tasks file for apparmor (Ubuntu specific)
+
+- name: Install Apparmor packages
+  apt: name={{ item }} state=present update_cache=yes
+  with_items: apparmor_packages
+  tags: apparmor
