@@ -12,7 +12,3 @@
 - include: Ubuntu.yml
   when: ansible_distribution == "Ubuntu"
   tags: apparmor
-
-- name: Ensure Apparmor service is started and enabled on boot
-  service: name={{ apparmor_service_name }} state=started enabled=yes
-  tags: apparmor
