@@ -1,6 +1,8 @@
 apparmor
 ========
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.apparmor-660198.svg)](https://galaxy.ansible.com/list#/roles/3311)
+
 Installs Apparmor.
 
 Requirements
