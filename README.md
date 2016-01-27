@@ -1,8 +1,6 @@
 apparmor
 ========
 
-[![Ansible Role](https://img.shields.io/ansible/role/3311.svg)](https://galaxy.ansible.com/list#/roles/3311)
-
 Installs Apparmor.
 
 Requirements
