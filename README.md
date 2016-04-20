@@ -1,6 +1,8 @@
 apparmor
 ========
 
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-apparmor.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-apparmor)
+
 Installs Apparmor.
 
 Requirements
@@ -22,10 +24,10 @@ Example Playbook
 ----------------
 
 Install Apparmor
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.apparmor }
+    - kbrebanov.apparmor
 ```
 
 License
